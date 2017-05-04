@@ -115,3 +115,71 @@
 2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
 2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45
 2017-04-06 16:27:35 - PHP Warning:  session_start(): open(/tmp/sess_o4bb6p67nss2643tp71eb5vfq0, O_RDWR) failed: No such file or directory (2) in /var/www/vhosts/3331141.xeovo.ml/public_html/streetmoda/system/library/session.php on line 21
+2017-05-03 17:25:52 - PHP Notice:  Error: Could not load template C:/Server/domains/bars.loc/public_html/catalog/view/theme/default/template/module/category_main_page.tpl! in C:\Server\domains\bars.loc\public_html\system\engine\loader.php on line 86
+2017-05-03 17:27:48 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:27:48 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:28:22 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:28:22 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:29:07 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:29:07 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:30:05 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:30:05 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:30:19 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:30:19 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:31:07 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:31:07 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:33:15 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:33:15 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:33:23 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:33:23 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\category.tpl on line 86
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 14
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 15
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 26
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 29
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 32
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 39
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 42
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: delivery in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 45
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: payment in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 48
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: manufacturers in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 57
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 138
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 141
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 234
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 235
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 245
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 248
+2017-05-03 17:41:43 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 251
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 14
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 15
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 26
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 29
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 32
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 39
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 42
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: delivery in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 45
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: payment in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 48
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: manufacturers in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 57
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 138
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 141
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 234
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 235
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 245
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 248
+2017-05-03 17:42:16 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 251
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 14
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 15
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 26
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 29
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 32
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 39
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 42
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: delivery in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 45
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: payment in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 48
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: manufacturers in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\footer.tpl on line 57
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: about_product in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 138
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: order_specifications in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 141
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: whatsapp in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 234
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: viber in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 235
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 245
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 248
+2017-05-03 17:51:00 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 251

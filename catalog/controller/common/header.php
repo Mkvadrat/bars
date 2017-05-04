@@ -1,8 +1,6 @@
 <?php
 class ControllerCommonHeader extends Controller {
-	private $error = array();
 	public function index() {
-
 		// Analytics
 		$this->load->model('extension/extension');
 
@@ -38,7 +36,7 @@ class ControllerCommonHeader extends Controller {
 		$data['direction'] = $this->language->get('direction');
 
 		$data['name'] = $this->config->get('config_name');
-
+	
 		if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
 			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
 		} else {
@@ -74,7 +72,6 @@ class ControllerCommonHeader extends Controller {
 		$data['text_page'] = $this->language->get('text_page');
 		$data['text_category'] = $this->language->get('text_category');
 		$data['text_all'] = $this->language->get('text_all');
-		$data['first_name'] = $this->customer->getFirstName();
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -85,21 +82,27 @@ class ControllerCommonHeader extends Controller {
 		$data['order'] = $this->url->link('account/order', '', 'SSL');
 		$data['transaction'] = $this->url->link('account/transaction', '', 'SSL');
 		$data['download'] = $this->url->link('account/download', '', 'SSL');
-		$data['logout'] = $this->url->link('account/logout', '', 'SSL');
-		$data['shopping_cart'] = $this->url->link('checkout/cart');
+		$data['logout'] = $this->url->link('account/logout', '', 'SSL');	
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-		$data['whatsapp'] = $this->config->get('config_whatsapp');
-		$data['viber'] = $this->config->get('config_viber');
-		$data['man_clothes'] = $this->url->link('product/category&path=59');
-		$data['women_clothes'] = $this->url->link('product/category&path=60');
-		$data['accessories'] = $this->url->link('product/category&path=61');
-		$data['order_specifications'] = $this->url->link('information/information&information_id=7');
-		$data['delivery'] = $this->url->link('information/information&information_id=6');
-		$data['payment'] = $this->url->link('information/information&information_id=9');
-		$data['about_product'] = $this->url->link('information/information&information_id=8');
+			
+		//Изменения
+		$data['first_name'] = $this->customer->getFirstName();
+		$data['about_us'] = $this->url->link('information/information&information_id=4', '', 'SSL');
+		$data['delivery'] = $this->url->link('information/information&information_id=6', '', 'SSL');
+		$data['payment'] = $this->url->link('information/information&information_id=7', '', 'SSL');
+		$data['waranty'] = $this->url->link('information/information&information_id=8', '', 'SSL');
+		$data['mans'] = $this->url->link('product/category&path=59', '', 'SSL');
+		$data['womans'] = $this->url->link('product/category&path=60', '', 'SSL');
+		$data['special'] = $this->url->link('product/special', '', 'SSL');
 		
+		if($this->customer->isLogged()){
+			$data['shopping_cart'] = $this->url->link('checkout/cart', '', 'SSL');
+		}else{
+			$data['shopping_cart'] = $this->url->link('account/login', '', 'SSL');
+		}
+
 		$status = true;
 
 		if (isset($this->request->server['HTTP_USER_AGENT'])) {
@@ -180,6 +183,4 @@ class ControllerCommonHeader extends Controller {
 			return $this->load->view('default/template/common/header.tpl', $data);
 		}
 	}
-	
-	
 }

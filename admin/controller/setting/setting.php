@@ -586,30 +586,30 @@ class ControllerSettingSetting extends Controller {
 		} else {
 			$data['config_telephone'] = $this->config->get('config_telephone');
 		}
-		
-		if (isset($this->request->post['config_whatsapp'])) {
-			$data['config_whatsapp'] = $this->request->post['config_whatsapp'];
-		} else {
-			$data['config_whatsapp'] = $this->config->get('config_whatsapp');
-		}
-		
-		if (isset($this->request->post['config_viber'])) {
-			$data['config_viber'] = $this->request->post['config_viber'];
-		} else {
-			$data['config_viber'] = $this->config->get('config_viber');
-		}
-		
-		if (isset($this->request->post['config_social_links_vk'])) {
-			$data['config_social_links_vk'] = $this->request->post['config_social_links_vk'];
-		} else {
-			$data['config_social_links_vk'] = $this->config->get('config_social_links_vk');
-		}
-
 
 		if (isset($this->request->post['config_fax'])) {
 			$data['config_fax'] = $this->request->post['config_fax'];
 		} else {
 			$data['config_fax'] = $this->config->get('config_fax');
+		}
+		
+		//Social links
+		if (isset($this->request->post['config_social_vk'])) {
+			$data['config_social_vk'] = $this->request->post['config_social_vk'];
+		} else {
+			$data['config_social_vk'] = $this->config->get('config_social_vk');
+		}
+		
+		if (isset($this->request->post['config_social_insgm'])) {
+			$data['config_social_insgm'] = $this->request->post['config_social_insgm'];
+		} else {
+			$data['config_social_insgm'] = $this->config->get('config_social_insgm');
+		}
+		
+		if (isset($this->request->post['config_social_fb'])) {
+			$data['config_social_fb'] = $this->request->post['config_social_fb'];
+		} else {
+			$data['config_social_fb'] = $this->config->get('config_social_fb');
 		}
 
 		if (isset($this->request->post['config_image'])) {
@@ -1103,10 +1103,10 @@ class ControllerSettingSetting extends Controller {
 			'value' => 'register'
 		);
 
-		/*$data['captcha_pages'][] = array(
+		$data['captcha_pages'][] = array(
 			'text'  => $this->language->get('text_review'),
 			'value' => 'review'
-		);*/
+		);
 
 		$data['captcha_pages'][] = array(
 			'text'  => $this->language->get('text_return'),
@@ -1130,6 +1130,21 @@ class ControllerSettingSetting extends Controller {
 			$data['logo'] = $this->model_tool_image->resize($this->config->get('config_logo'), 100, 100);
 		} else {
 			$data['logo'] = $this->model_tool_image->resize('no_image.png', 100, 100);
+		}
+		
+		//Логотип в подвале сайта
+		if (isset($this->request->post['config_footer_logo'])) {
+			$data['config_footer_logo'] = $this->request->post['config_footer_logo'];
+		} else {
+			$data['config_footer_logo'] = $this->config->get('config_footer_logo');
+		}
+
+		if (isset($this->request->post['config_footer_logo']) && is_file(DIR_IMAGE . $this->request->post['config_footer_logo'])) {
+			$data['footer_logo'] = $this->model_tool_image->resize($this->request->post['config_footer_logo'], 100, 100);
+		} elseif ($this->config->get('config_footer_logo') && is_file(DIR_IMAGE . $this->config->get('config_footer_logo'))) {
+			$data['footer_logo'] = $this->model_tool_image->resize($this->config->get('config_footer_logo'), 100, 100);
+		} else {
+			$data['footer_logo'] = $this->model_tool_image->resize('no_image.png', 100, 100);
 		}
 
 		if (isset($this->request->post['config_icon'])) {
@@ -1578,6 +1593,9 @@ class ControllerSettingSetting extends Controller {
 			}
 			if ((utf8_strlen($value['owner']) < 3) || (utf8_strlen($value['owner']) > 64)) {
 				$this->error['owner'][$language_id] = $this->language->get('error_owner');
+			}
+			if ((utf8_strlen($value['address']) < 3) || (utf8_strlen($value['address']) > 256)) {
+				$this->error['address'][$language_id] = $this->language->get('error_address');
 			}
 			if ((utf8_strlen($value['meta_title']) < 2) || (utf8_strlen($value['meta_title']) > 255)) {
 				$this->error['meta_title'][$language_id] = $this->language->get('error_meta_title');

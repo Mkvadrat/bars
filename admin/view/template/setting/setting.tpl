@@ -162,13 +162,12 @@
                   <?php } ?>
                 </div>
 
-                <!--<div class="form-group">
+                <div class="form-group">
                   <label class="col-sm-2 control-label" for="input-geocode"><span data-toggle="tooltip" data-container="#tab-general" title="<?php echo $help_geocode; ?>"><?php echo $entry_geocode; ?></span></label>
                   <div class="col-sm-10">
                     <input type="text" name="config_geocode" value="<?php echo $config_geocode; ?>" placeholder="<?php echo $entry_geocode; ?>" id="input-geocode" class="form-control" />
                   </div>
-                </div>-->
-				<input type="hidden" name="config_geocode" value="<?php echo $config_geocode; ?>" placeholder="<?php echo $entry_geocode; ?>" id="input-geocode" class="form-control" />
+                </div>
                 <div class="form-group required">
                   <label class="col-sm-2 control-label" for="input-email"><?php echo $entry_email; ?></label>
                   <div class="col-sm-10">
@@ -187,28 +186,28 @@
                     <?php } ?>
                   </div>
                 </div>
-				<div class="form-group">
-                  <label class="col-sm-2 control-label" for="input-WhatsApp">WhatsApp</label>
-                  <div class="col-sm-10">
-                    <input type="text" name="config_whatsapp" value="<?php echo $config_whatsapp; ?>" placeholder="WhatsApp" id="input-WhatsApp" class="form-control" />
-                  </div>
-                </div>
-				<div class="form-group">
-                  <label class="col-sm-2 control-label" for="input-viber">Viber</label>
-                  <div class="col-sm-10">
-                    <input type="text" name="config_viber" value="<?php echo $config_viber; ?>" placeholder="Viber" id="input-viber" class="form-control" />
-                  </div>
-                </div>
-				<div class="form-group">
-                  <label class="col-sm-2 control-label" for="input-social">Социальные сети (Вконтакте)</label>
-                  <div class="col-sm-10">
-                    <input type="text" name="config_social_links_vk" value="<?php echo $config_social_links_vk; ?>" placeholder="Вконтакте" id="input-social" class="form-control" />
-                  </div>
-                </div>
                 <div class="form-group">
                   <label class="col-sm-2 control-label" for="input-fax"><?php echo $entry_fax; ?></label>
                   <div class="col-sm-10">
                     <input type="text" name="config_fax" value="<?php echo $config_fax; ?>" placeholder="<?php echo $entry_fax; ?>" id="input-fax" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label" for="input-social-vk">Социальные сети (ВК)</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="config_social_vk" value="<?php echo $config_social_vk; ?>" placeholder="Социальные сети (ВК)" id="input-social-vk" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label" for="input-social-fb">Социальные сети (FB)</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="config_social_fb" value="<?php echo $config_social_fb; ?>" placeholder="Социальные сети (FB)" id="input-social-fb" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label" for="input-social-insgm">Социальные сети (instagram)</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="config_social_insgm" value="<?php echo $config_social_insgm; ?>" placeholder="Социальные сети (instagram)" id="input-social-insgm" class="form-control" />
                   </div>
                 </div>
                 <div class="form-group">
@@ -1236,6 +1235,12 @@
                 </div>
               </div>
               <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-footer-logo">Логотип в подвале сайта</label>
+                <div class="col-sm-10"><a href="" id="thumb-footer-logo" data-toggle="image" class="img-thumbnail"><img src="<?php echo $footer_logo; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
+                  <input type="hidden" name="config_footer_logo" value="<?php echo $config_footer_logo; ?>" id="input-footer-logo" />
+                </div>
+              </div>
+              <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-icon"><span data-toggle="tooltip" title="<?php echo $help_icon; ?>"><?php echo $entry_icon; ?></span></label>
                 <div class="col-sm-10"><a href="" id="thumb-icon" data-toggle="image" class="img-thumbnail"><img src="<?php echo $icon; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
                   <input type="hidden" name="config_icon" value="<?php echo $config_icon; ?>" id="input-icon" />
@@ -1939,7 +1944,6 @@
         </form>
       </div>
     </div>
-  </div>
   <script type="text/javascript"><!--
 $('select[name=\'config_template\']').on('change', function() {
 	$.ajax({

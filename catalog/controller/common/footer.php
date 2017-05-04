@@ -19,10 +19,6 @@ class ControllerCommonFooter extends Controller {
 		$data['text_order'] = $this->language->get('text_order');
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
-		$data['telephone'] = $this->config->get('config_telephone');
-		$data['whatsapp'] = $this->config->get('config_whatsapp');
-		$data['viber'] = $this->config->get('config_viber');
-		$data['email'] = $this->config->get('config_email');
 
 		$this->load->model('catalog/information');
 
@@ -48,17 +44,32 @@ class ControllerCommonFooter extends Controller {
 		$data['order'] = $this->url->link('account/order', '', 'SSL');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
 		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
-		$data['home'] = $this->url->link('common/home');
-		$data['man_clothes'] = $this->url->link('product/category&path=59');
-		$data['women_clothes'] = $this->url->link('product/category&path=60');
-		$data['accessories'] = $this->url->link('product/category&path=61');
-		$data['order_specifications'] = $this->url->link('information/information&information_id=7');
-		$data['delivery'] = $this->url->link('information/information&information_id=6');
-		$data['payment'] = $this->url->link('information/information&information_id=9');
-		$data['about_product'] = $this->url->link('information/information&information_id=8');
-		$data['manufacturers'] = $this->url->link('information/information&information_id=10');
 
 		$data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+		
+		//Изменения
+		$data['mans'] = $this->url->link('product/category&path=59', '', 'SSL');
+		$data['womans'] = $this->url->link('product/category&path=60', '', 'SSL');
+		$data['special'] = $this->url->link('product/special', '', 'SSL');
+		$data['name'] = $this->config->get('config_name');
+		$data['home'] = $this->url->link('common/home');
+		$data['telephone'] = $this->config->get('config_telephone');
+		$data['email'] = $this->config->get('config_email');
+		$data['vk'] = $this->config->get('config_social_vk');
+		$data['fb'] = $this->config->get('config_social_fb');
+		$data['insgm'] = $this->config->get('config_social_insgm');
+		
+		if ($this->request->server['HTTPS']) {
+			$server = $this->config->get('config_ssl');
+		} else {
+			$server = $this->config->get('config_url');
+		}
+		
+		if (is_file(DIR_IMAGE . $this->config->get('config_footer_logo'))) {
+			$data['logo'] = $server . 'image/' . $this->config->get('config_footer_logo');
+		} else {
+			$data['logo'] = '';
+		}
 
 		// Whos Online
 		if ($this->config->get('config_customer_online')) {
