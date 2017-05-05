@@ -77,9 +77,8 @@ class ControllerProductSearch extends Controller {
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_home_streetmoda'),
-			'href' => $this->url->link('common/home'),
-			'separator' => $this->language->get('text_separator')
+			'text' => $this->language->get('text_home'),
+			'href' => $this->url->link('common/home')
 		);
 
 		$url = '';

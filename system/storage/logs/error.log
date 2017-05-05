@@ -183,3 +183,51 @@
 2017-05-03 17:51:00 - PHP Notice:  Undefined variable: man_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 245
 2017-05-03 17:51:00 - PHP Notice:  Undefined variable: women_clothes in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 248
 2017-05-03 17:51:00 - PHP Notice:  Undefined variable: accessories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\streetmoda\template\common\header.tpl on line 251
+2017-05-05 10:04:04 - PHP Notice:  Undefined index: separator in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\special.tpl on line 18
+2017-05-05 10:06:20 - PHP Notice:  Undefined variable: categories in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\special.tpl on line 58
+2017-05-05 10:59:52 - PHP Notice:  Undefined index: separator in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 18
+2017-05-05 10:59:52 - PHP Notice:  Undefined index: href in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 34
+2017-05-05 10:59:52 - PHP Notice:  Undefined index: image in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 35
+2017-05-05 10:59:52 - PHP Notice:  Undefined index: href in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 34
+2017-05-05 10:59:52 - PHP Notice:  Undefined index: image in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 35
+2017-05-05 11:01:38 - PHP Notice:  Undefined index: separator in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 18
+2017-05-05 11:01:50 - PHP Notice:  Undefined index: separator in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 18
+2017-05-05 11:14:00 - PHP Notice:  Undefined variable: pagination in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 7
+2017-05-05 11:14:00 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:14:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:14:00 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:14:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:14:00 - PHP Notice:  Undefined variable: continue in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 131
+2017-05-05 11:14:00 - PHP Notice:  Undefined variable: button_continue in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 131
+2017-05-05 11:15:07 - PHP Notice:  Undefined variable: pagination in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 7
+2017-05-05 11:15:07 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:07 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:12 - PHP Notice:  Undefined variable: pagination in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 7
+2017-05-05 11:15:12 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:12 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:12 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:12 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:40 - PHP Notice:  Undefined variable: pagination in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 7
+2017-05-05 11:15:40 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:40 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:40 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:40 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:50 - PHP Notice:  Undefined variable: pagination in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 7
+2017-05-05 11:15:50 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 79
+2017-05-05 11:15:50 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:15:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 91
+2017-05-05 11:16:50 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:16:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:16:50 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-05 11:16:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-05 11:16:58 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:16:58 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:16:58 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-05 11:16:58 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-05 11:17:07 - PHP Notice:  Undefined variable: sorts in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:17:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
+2017-05-05 11:17:07 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-05 11:17:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
