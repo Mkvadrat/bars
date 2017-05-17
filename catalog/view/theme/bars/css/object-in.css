@@ -60,11 +60,14 @@
   font-family: "sans-regular";
   font-size: 16px;
   font-weight: 700;
-  line-height: 18px;
+  line-height: 20px;
   color: #2a2a2a;
   padding-bottom: 16px;
+  padding-right: 270px;
 }
-.objects-in .info-about-product .price {
+.objects-in .info-about-product .price,
+.objects-in .info-about-product .description-title,
+.objects-in .info-about-product .description {
   font-family: "sans-regular";
   font-size: 14px;
   font-weight: 400;

@@ -205,6 +205,17 @@ header .bottom-line {
       float: left;
       position: relative;
       background: black; }
+      header .bottom-line ul li:nth-child(4) {
+        background: #ea0d2d;
+        -webkit-transition: 0.3s;
+           -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+             -o-transition: 0.3s;
+                transition: 0.3s;
+      }
+      header .bottom-line ul li:nth-child(4):hover a {
+        background: #e92c47 !important;
+      }
       header .bottom-line ul li a {
         display: block;
         font-family: "sans-regular";
@@ -1045,7 +1056,7 @@ footer {
 
   font-weight: 700;
 
-  line-height: 16px;
+  line-height: 34px;
 
   color: #fff;
 
