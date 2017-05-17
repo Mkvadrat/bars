@@ -231,3 +231,27 @@
 2017-05-05 11:17:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 76
 2017-05-05 11:17:07 - PHP Notice:  Undefined variable: limits in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
 2017-05-05 11:17:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\product\search.tpl on line 88
+2017-05-17 14:32:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:32:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:32:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:33:00 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:33:00 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:33:00 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:34:23 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:34:23 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:34:23 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:35:28 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:35:28 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:35:28 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:37:29 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:37:29 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:37:29 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:37:35 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:37:35 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:37:35 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:39:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:39:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:39:03 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
+2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
+2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
