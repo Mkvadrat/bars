@@ -133,6 +133,7 @@
   line-height: 34px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .objects .more-buy a:first-child {
   background-color: #b1b1b1;
@@ -179,6 +180,7 @@
   font-weight: 400;
   line-height: 16px;
   color: #2a2a2a;
+  cursor: pointer;
 }
 .objects .add-to-bookmarks:hover {
   text-decoration: underline;

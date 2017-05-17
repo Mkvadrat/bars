@@ -37,7 +37,8 @@ header .top-line {
     float: right; }
     header .top-line .enter-registr li {
       float: left; }
-      header .top-line .enter-registr li a {
+      header .top-line .enter-registr li a,
+      header .top-line .enter-registr li p {
         font-family: "sans-regular";
         font-size: 14px;
         font-weight: 400;
