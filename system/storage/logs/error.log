@@ -255,3 +255,6 @@
 2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 9
 2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 10
 2017-05-17 14:40:08 - PHP Notice:  Undefined index: code in C:\Server\domains\bars.loc\public_html\catalog\view\theme\bars\template\checkout\payment_method.tpl on line 11
+2017-07-03 7:01:16 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/bars/system/storage/cache/cache.currency.1499050867): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/bars/system/library/cache/file.php on line 17
+2017-07-10 23:57:10 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.currency.1499721784): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 17
+2017-07-10 23:57:13 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.currency.1499734633): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 68
