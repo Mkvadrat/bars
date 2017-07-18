@@ -1606,7 +1606,7 @@ class ControllerSettingSetting extends Controller {
 			$this->error['email'] = $this->language->get('error_email');
 		}
 
-		if ((utf8_strlen($this->request->post['config_telephone']) < 3) || (utf8_strlen($this->request->post['config_telephone']) > 32)) {
+		if ((utf8_strlen($this->request->post['config_telephone']) < 3) || (utf8_strlen($this->request->post['config_telephone']) > 128)) {
 			$this->error['telephone'] = $this->language->get('error_telephone');
 		}
 

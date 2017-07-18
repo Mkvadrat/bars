@@ -1,4 +1,4 @@
 <?php
 // Text
 $_['text_title']       = '';
-$_['text_description'] = 'По России';
+$_['text_description'] = 'Почта России';

@@ -258,3 +258,30 @@
 2017-07-03 7:01:16 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/bars/system/storage/cache/cache.currency.1499050867): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/bars/system/library/cache/file.php on line 17
 2017-07-10 23:57:10 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.currency.1499721784): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 17
 2017-07-10 23:57:13 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.currency.1499734633): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 68
+2017-07-13 9:58:11 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 199
+2017-07-13 9:58:33 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 199
+2017-07-13 9:59:44 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 199
+2017-07-13 10:00:22 - PHP Notice:  Error: AUTH LOGIN not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 255
+2017-07-13 10:02:42 - PHP Notice:  Error: AUTH LOGIN not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 255
+2017-07-13 10:03:26 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:06:18 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:08:24 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:10:14 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 170
+2017-07-13 10:10:14 - PHP Warning:  fsockopen(): unable to connect to :465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 170
+2017-07-13 10:10:14 - PHP Notice:  Error: php_network_getaddresses: getaddrinfo failed: Name or service not known (0) in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 173
+2017-07-13 10:14:15 - PHP Notice:  Undefined property: Mail::$replyto in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 106
+2017-07-13 10:14:15 - PHP Notice:  Undefined property: Mail::$replyto in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 106
+2017-07-13 10:14:18 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:14:31 - PHP Notice:  Undefined property: Mail::$replyto in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 106
+2017-07-13 10:14:31 - PHP Notice:  Undefined property: Mail::$replyto in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 106
+2017-07-13 10:15:00 - PHP Notice:  Undefined index: config_email in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/catalog/controller/information/contact.php on line 21
+2017-07-13 10:15:00 - PHP Notice:  Error: E-Mail from required! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 66
+2017-07-13 10:25:27 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:25:34 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:26:42 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 328
+2017-07-13 10:43:28 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 199
+2017-07-13 10:44:24 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/mail.php on line 199
+2017-07-13 13:06:24 - PHP Notice:  Undefined variable: error_lastname in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/catalog/view/theme/bars/template/account/register.tpl on line 61
+2017-07-14 23:27:42 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.category.seopath.1500064202): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 17
+2017-07-14 23:27:42 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.seo_pro.1500064202): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 17
+2017-07-14 23:27:45 - PHP Warning:  unlink(/var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/storage/cache/cache.category.seopath.1500078465): No such file or directory in /var/www/vhosts/3331141.xeovo.ml/public_html/sevbars/system/library/cache/file.php on line 68

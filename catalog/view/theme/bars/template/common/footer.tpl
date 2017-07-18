@@ -10,7 +10,7 @@
                     <?php } ?>
 
                     <ul>
-                        <li><a href="tel:<?php echo $telephone; ?>"><?php echo $telephone; ?></a></li>
+                        <li><?php echo $telephone; ?></li>
                         <li><a href="email:<?php echo $email; ?>"><?php echo $email; ?></a></li>
                     </ul>
                 </div>

@@ -53,7 +53,8 @@ class ControllerCommonFooter extends Controller {
 		$data['special'] = $this->url->link('product/special', '', 'SSL');
 		$data['name'] = $this->config->get('config_name');
 		$data['home'] = $this->url->link('common/home');
-		$data['telephone'] = $this->config->get('config_telephone');
+		
+		$data['telephone'] = html_entity_decode($this->config->get('config_telephone'), ENT_QUOTES, 'UTF-8');
 		$data['email'] = $this->config->get('config_email');
 		$data['vk'] = $this->config->get('config_social_vk');
 		$data['fb'] = $this->config->get('config_social_fb');

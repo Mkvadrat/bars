@@ -33,27 +33,20 @@
 		<?php } ?>
 		
 		<br/>
-		
 		<?php if ($comment) { ?>
 		<?php echo $comment; ?>
 		<br/><br/>
-	    <?php } ?>
+		<?php } ?>
 		
-		<!--Название магазина: <?php echo $store; ?>
-		
-		<br/><br/>
-		
-		Адрес магазина: <?php echo $address; ?>-->
-		
-		<?php echo $address; ?>
-		
-		<br/><br/>
-		
-		<?php if ($telephone) { ?>
+		<?php //echo $address; ?><br/><br/>
+		 
+		<?php /*if ($telephone) { ?>
 		<?php echo $telephone; ?>
 		<br/><br/>
-		<?php } ?>
-				
+		<?php } */?>
+
+		<br/><br/>
+						
 		<?php if ($fax) { ?>
 		Факс: <?php echo $fax; ?>
 		<br/><br/>

@@ -56,12 +56,9 @@
 				<div class="text-danger"><?php echo $error_firstname; ?></div>
 				<?php } ?>
 				
-				<p>Ваша фамилия:<span>*</span></p>
+				<p>Ваша фамилия:</p>
 				<input type="text" name="lastname" value="<?php echo $lastname; ?>" />
-				<?php if ($error_lastname) { ?>
-				<div class="text-danger"><?php echo $error_lastname; ?></div>
-				<?php } ?>
-
+				
 				<p>Мобильный телефон:<span>*</span></p>
 				<input type="tel" name="telephone" value="<?php echo $telephone; ?>" />
 				<?php if ($error_telephone) { ?>

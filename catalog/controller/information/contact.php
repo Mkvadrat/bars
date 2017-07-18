@@ -92,7 +92,7 @@ class ControllerInformationContact extends Controller {
 		$data['address'] = $this->config->get('config_address');
 		$data['geocode'] = $this->config->get('config_geocode');
 		$data['geocode_hl'] = $this->config->get('config_language');
-		$data['telephone'] = $this->config->get('config_telephone');
+		$data['telephone'] = html_entity_decode($this->config->get('config_telephone'), ENT_QUOTES, 'UTF-8');
 		$data['fax'] = $this->config->get('config_fax');
 		$data['whatsapp'] = $this->config->get('config_whatsapp');
 		$data['viber'] = $this->config->get('config_viber');

@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'Доставка наложенным платежом';
-$_['text_description'] = 'Доставка наложенным платежом';
+$_['text_title']       = '';
+$_['text_description'] = 'Наша Почта';
