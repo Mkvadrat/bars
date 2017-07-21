@@ -5,10 +5,10 @@
 <title><?php echo $title; ?></title>
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;">
-<div style="width: 720px;"><a href="<?php echo $store_url; ?>" title="<?php echo $store_name; ?>"><img src="<?php echo $logo; ?>" alt="<?php echo $store_name; ?>" style="margin-bottom: 20px; border: none;" /></a>
+<div style="width: 720px;"><a href="<?php echo $store_url; ?>" title="<?php echo $store_name; ?>"><img src="<?php echo $logo_b; ?>" alt="<?php echo $store_name; ?>" style="margin-bottom: 20px; border: none;" /></a>
   <p style="margin-top: 0px; margin-bottom: 20px; font-weight:bold;">Здравствуйте, <?php echo $customer_name; ?>!</p>
 
-  <p style="margin-top: 0px; margin-bottom: 20px;">Благодарим Вас за интерес к товарам нашего оптового интернет-магазина молодежной одежды STREETMODA www.streetmoda-opt.com</p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">Благодарим Вас за интерес к товарам нашего интернет-магазина кожаных курток и дубленок для мужчин и женщин БАРС <a href="http://sevbars.com/">www.sevbars.com</a></p>
   <p style="margin-top: 0px; margin-bottom: 20px; font-weight:bold;">Ваш заказ № <?php echo $order_id; ?> принят!</p>
   <p style="margin-top: 0px; margin-bottom: 20px;">Мы свяжемся с Вами в ближайшее время.</p>
   
@@ -62,10 +62,12 @@
   <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_link; ?> <a href="<?php echo $link; ?>"><?php echo $link; ?></a></p>
   <?php } ?>
 	
+	<p style="margin-top: 0px; margin-bottom: 20px;">Для просмотра заказа на сайте, пройти по <a href="http://sevbars.com/order-history/">ссылке</a></p>
+	
   <p style="margin-top: 0px; margin-bottom: 20px;">Если у Вас есть вопросы по заказу, пожалуйста, ответьте на это письмо.</p>
   
-  <p style="margin-top: 0px; margin-bottom: 20px;">С уважением, StreetModa</p>
-  <p style="margin-top: 0px; margin-bottom: 20px;">www.streetmoda-opt.com</p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">С уважением, БАРС</p>
+  <p style="margin-top: 0px; margin-bottom: 20px;">www.sevbars.com</p>
 </div>
 </body>
 </html>
