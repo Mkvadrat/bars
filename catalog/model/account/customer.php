@@ -36,11 +36,11 @@ class ModelAccountCustomer extends Model {
 			$message .= $this->language->get('text_approval') . "\n";
 		}
 
-		$message .= $this->url->link('account/login', '', 'SSL') . "\n\n";
+		//$message .= $this->url->link('account/login', '', 'SSL') . "\n\n";
 		$message .= $this->language->get('text_services') . "\n\n";
 		$message .= $this->language->get('text_thanks') . "\n";
 		$message .= $this->language->get('text_thanks_2') . "\n";
-		$message .= html_entity_decode('www.streetmoda-opt.com', ENT_QUOTES, 'UTF-8');
+		//$message .= html_entity_decode('www.sevbars.com', ENT_QUOTES, 'UTF-8');
 
 		$mail = new Mail();
 		$mail->protocol = $this->config->get('config_mail_protocol');
@@ -64,7 +64,7 @@ class ModelAccountCustomer extends Model {
 			$message .= $this->language->get('text_website') . ' ' . html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8') . "\n";
 			$message .= $this->language->get('text_firstname') . ' ' . $data['firstname'] . "\n";
 			$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "\n";
-			$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "\n";
+			/*$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "\n";*/
 			$message .= $this->language->get('text_email') . ' '  .  $data['email'] . "\n";
 			$message .= $this->language->get('text_telephone') . ' ' . $data['telephone'] . "\n";
 
