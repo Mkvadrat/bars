@@ -959,14 +959,6 @@ class ControllerCatalogProduct extends Controller {
 			$data['price'] = '';
 		}
 		
-		if (isset($this->request->post['packing_price'])) {
-			$data['packing_price'] = $this->request->post['packing_price'];
-		} elseif (!empty($product_info)) {
-			$data['packing_price'] = $product_info['packing_price'];
-		} else {
-			$data['packing_price'] = '';
-		}
-
 		$this->load->model('catalog/recurring');
 
 		$data['recurrings'] = $this->model_catalog_recurring->getRecurrings();

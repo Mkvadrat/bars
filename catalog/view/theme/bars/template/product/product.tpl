@@ -52,46 +52,49 @@ $i++;
 <?php } ?>
 <?php } ?>
 
+<p class="price">Количество на складе: <?php echo $stock; ?></p>
+
 <?php if ($discounts) { ?>
 <?php foreach ($discounts as $discount) { ?>
 <?php echo $discount['quantity']; ?><?php echo $text_discount; ?><?php echo $discount['price']; ?>
 <?php } ?>
 <?php } ?>
 
-<?php if ($options) { ?>
-<?php foreach ($options as $option) { ?>
-
-<!--ЦВЕТ-->
-<?php if($option['option_id'] != 14 && $option['option_id'] != 15){ ?>
-<?php if($option['type'] == 'text' || $option['type'] == 'textarea'){ ?>
-<p class="price"><?php echo $option['name'] . ': ' . $option['value']; ?></p>
-<?php } ?>
-<?php } ?>
-<!--ЦВЕТ-->
-
-<!--РАЗМЕР-->
-<?php if($option['option_id'] == 14){?>
-<p class="price"><?php echo $option['name'] . ': ' . $option['value']; ?></p>
-<!--<div class="size-table">
-<ul class="packed-measurements">
-<li><?php echo $option['name'] . ':'; ?></li>
-<li><?php echo $option['value']; ?></li>
-</ul>
-<a href="<?php echo $size_table; ?>">Таблица размеров</a>
-</div>-->
-<?php } ?>
-<!--РАЗМЕР-->
-
-<?php } ?>
-<?php } ?>
-
-<!--РАЗМЕР-->
+<!--ПРОИЗВОДИТЕЛЬ-->
 <?php if ($manufacturer) { ?>
 <p class="price">Производитель: <span style="font-weight: bold;"><?php echo $manufacturer; ?></span></p>
 <?php } ?>
 <!--РАЗМЕР-->
 
 <div id="product">
+    
+<?php if ($options) { ?>
+<?php foreach ($options as $option) { ?>
+
+<?php if ($option['type'] == 'select') { ?>
+<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
+<p class="price"><label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label></p>
+<select name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control">
+<option value=""><?php echo $text_select; ?></option>
+<?php foreach ($option['product_option_value'] as $option_value) { ?>
+<option value="<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
+<?php if ($option_value['price']) { ?>
+(<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+<?php } ?>
+</option>
+<?php } ?>
+</select>
+</div>
+<?php } ?>
+
+<?php if ($option['type'] == 'text') { ?>
+<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
+<p class="price"><?php echo $option['name'] . ': ' . $option['value']; ?></p>
+</div>
+<?php } ?>
+
+<?php } ?>
+<?php } ?>
 
 <div class="add-to-basket">
 <?php if ($recurrings) { ?>
@@ -110,8 +113,7 @@ $i++;
 
 <div class="adults">
 Кол-во: <input name="quantity" type="text" size="4" value="<?php echo $minimum; ?>" class="counter-adults"><br>
-<!--<button class="increment-btn-inc-adults">+</button>
-<button class="increment-btn-dec-adults">-</button>-->
+
 <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
 </div>
 
@@ -124,7 +126,10 @@ $i++;
 <div class="product-cart"></div>
 
 </div>
-
+<br>
+<?php if ($minimum > 1) { ?>
+<div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
+<?php } ?>
 <div class="description-title">Описание:</div>
 <div class="description"><?php echo $description; ?></div>
 
@@ -235,7 +240,7 @@ $('.text-danger').parent().addClass('has-error');
 }
 
 if (json['success']) {
-$('.product-cart').after('<div class="product-added alert"><p>' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></p></div>');
+$('#content').append('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
 $('#cart-total').html('<p id="cart-total">' + json['total'] + '</p>');
 
