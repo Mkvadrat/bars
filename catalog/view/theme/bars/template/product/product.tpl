@@ -52,11 +52,7 @@ $i++;
 <?php } ?>
 <?php } ?>
 
-<<<<<<< HEAD
 <p class="price">В наличии: <?php echo $stock; ?></p>
-=======
-<p class="price">Количество на складе: <?php echo $stock; ?></p>
->>>>>>> cb8e83475b069071883956e2652f2aadd537fe0d
 
 <?php if ($discounts) { ?>
 <?php foreach ($discounts as $discount) { ?>
@@ -76,11 +72,7 @@ $i++;
 <?php foreach ($options as $option) { ?>
 
 <?php if ($option['type'] == 'select') { ?>
-<<<<<<< HEAD
 <div class="form<?php echo ($option['required'] ? ' required' : ''); ?>">
-=======
-<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
->>>>>>> cb8e83475b069071883956e2652f2aadd537fe0d
 <p class="price"><label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label></p>
 <select name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control">
 <option value=""><?php echo $text_select; ?></option>
@@ -96,11 +88,7 @@ $i++;
 <?php } ?>
 
 <?php if ($option['type'] == 'text') { ?>
-<<<<<<< HEAD
 <div class="form<?php echo ($option['required'] ? ' required' : ''); ?>">
-=======
-<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
->>>>>>> cb8e83475b069071883956e2652f2aadd537fe0d
 <p class="price"><?php echo $option['name'] . ': ' . $option['value']; ?></p>
 </div>
 <?php } ?>
