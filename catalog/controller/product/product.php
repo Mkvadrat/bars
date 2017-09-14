@@ -291,10 +291,9 @@ class ControllerProductProduct extends Controller {
 			$data['size_table'] = $this->url->link('information/information&information_id=11', '', 'SSL');
 			$data['information_delivery'] = $this->url->link('information/information&information_id=6', '', 'SSL');
 			$data['register'] = $this->url->link('account/register', '', 'SSL');
-			
 
 			if ($product_info['quantity'] <= 0) {
-				$data['stock'] = $product_info['stock_status'];
+				$data['stock'] = $this->language->get('text_nostock');
 			} elseif ($this->config->get('config_stock_display')) {
 				$data['stock'] = $product_info['quantity'];
 			} else {

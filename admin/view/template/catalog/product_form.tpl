@@ -166,15 +166,9 @@
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-price">Цена упаковки</label>
-                <div class="col-sm-10">
-                  <input type="text" name="price" value="<?php echo $price; ?>" placeholder="Цена упаковки" id="input-price" class="form-control" />
-                </div>
-              </div>
-			  <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-price"><?php echo $entry_price; ?></label>
                 <div class="col-sm-10">
-                  <input type="text" name="packing_price" value="<?php echo $packing_price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
+                  <input type="text" name="price" value="<?php echo $price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
                 </div>
               </div>
               <div class="form-group">
