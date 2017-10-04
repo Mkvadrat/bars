@@ -309,3 +309,6 @@
 2017-09-05 18:19:39 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/u0381560/public_html/sevbars/index.php:99) in /var/www/u0381560/public_html/sevbars/system/library/currency.php on line 45
 2017-09-06 7:28:18 - PHP Warning:  fsockopen(): unable to connect to mail.xeovo.com:25 (No route to host) in /var/www/u0381560/public_html/sevbars/system/library/mail.php on line 170
 2017-09-06 7:28:18 - PHP Notice:  Error: No route to host (113) in /var/www/u0381560/public_html/sevbars/system/library/mail.php on line 173
+2017-10-03 12:38:16 - PHP Warning:  fsockopen():  in D:\OpenServer\domains\sevbars.com\system\library\mail.php on line 170
+2017-10-03 12:38:16 - PHP Warning:  fsockopen():  in D:\OpenServer\domains\sevbars.com\system\library\mail.php on line 170
+2017-10-03 12:38:16 - PHP Notice:  Error: php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен.  (0) in D:\OpenServer\domains\sevbars.com\system\library\mail.php on line 173
